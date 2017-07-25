@@ -1,3 +1,45 @@
 page-home {
 
+    .grid {
+        padding: 0 !important;
+    }
+
+    .label {
+        display: flex !important;
+        justify-content: space-around !important;
+        align-items: center !important;
+        margin: 6px 8px 6px 0 !important;
+    }
+
+    .item-icon {
+        font-size: 1.9em;
+    }
+
+    .chart-container {
+        position: relative;
+        width: 100%;
+        height: calc(100% - 54px);
+    }
+
+    .temp {
+        color: goldenrod;
+
+        &.cold {
+            color: deepskyblue;
+        }
+    }
+
+    .gas {
+        color: cadetblue;
+    }
+
+    .presence {
+        color: forestgreen;
+    }
+
+    .temp, .gas, .presence {
+        &.danger {
+            color: red;
+        }
+    }
 }

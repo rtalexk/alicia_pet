@@ -1,0 +1,1 @@
+export const HOST: string = 'https://d5b64591.ngrok.io';
