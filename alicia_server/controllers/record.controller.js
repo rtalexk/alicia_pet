@@ -157,6 +157,10 @@ function handleUserNotification(record) {
         msg.notification.body = message;
 
         getRegistrationArray((err, devices) => {
+			if (!devies) {
+				console.log('not device to notify');
+				return;
+			}
             devices.ids.map(item => {
                 msg.to = item;
                 fcm.send(msg, (err, res) => {
