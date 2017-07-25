@@ -2,7 +2,6 @@ const s = require('http-status');
 const FCM = require('fcm-node');
 const fs = require('fs');
 const SERVER_KEY = 'AAAAOdNpi2c:APA91bEkcadEWC9cJvOBKAWVngM_XewPiWjuqQ3jMKOKCFl_w13ndPVqrDoBvqg4KLGFKeOD0t92guH63gQTCYZBJE6Rqrroi4ySCPo6_wzNAnOvrLM0h3a_daq0xLK4vnB4r59yPD7G';
-const ROOT_VIDEO = 'http://localhost:3000/videos';
 
 const fcm = new FCM(SERVER_KEY);
 
