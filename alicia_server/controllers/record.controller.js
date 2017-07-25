@@ -100,7 +100,6 @@ module.exports = (Record) => {
     return ({
         getAll,
         getCurrent,
-        connect,
         create
     });
 };
